@@ -1,4 +1,4 @@
-from CBenh import *
+from CTrieuchung import *
 class Thuoc:
     def __init__(self, ten, cong_dung, tac_dung_phu, dieu_tri):
         self.ten = ten
