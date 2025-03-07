@@ -1,4 +1,4 @@
-from CBenh import *
+from CTrieuchung import *
 from CBenhNhan import *
 class TuVanBenh:
     def __init__(self):
