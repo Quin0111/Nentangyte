@@ -1,14 +1,15 @@
-class BenhNhan:
-    def __init__(self, ten, tuoi):
+class TrieuChung:
+    def __init__(self, ten, phan_tich="Chưa có thông tin"):
         self.ten = ten
-        self.tuoi = tuoi
+        self.phan_tich = phan_tich  # Phân tích về triệu chứng
 
     def __str__(self):
-        return f"Bệnh nhân {self.ten}, {self.tuoi} tuổi"
+        return f"Triệu chứng: {self.ten} | Phân tích: {self.phan_tich}"
+
 
 # Ví dụ sử dụng:
-bn1 = BenhNhan("Nguyễn Văn A", 30)
-bn2 = BenhNhan("Trần Thị B", 25)
+tc1 = TrieuChung("Sốt", "Có thể do nhiễm trùng hoặc cảm cúm")
+tc2 = TrieuChung("Ho", "Có thể do viêm họng hoặc bệnh về phổi")
 
-print(bn1)
-print(bn2)
+print(tc1)
+print(tc2)
