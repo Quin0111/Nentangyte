@@ -1,8 +1,14 @@
-class Benh:
-    def __init__(self, ten, trieu_chung, dieu_tri="Chưa có thông tin"):
+class BenhNhan:
+    def __init__(self, ten, tuoi):
         self.ten = ten
-        self.trieu_chung = trieu_chung  # Danh sách triệu chứng
-        self.dieu_tri = dieu_tri  # Phương pháp điều trị
+        self.tuoi = tuoi
 
     def __str__(self):
-        return f"{self.ten}: Triệu chứng: {', '.join(self.trieu_chung)} | Điều trị: {self.dieu_tri}"
+        return f"Bệnh nhân {self.ten}, {self.tuoi} tuổi"
+
+# Ví dụ sử dụng:
+bn1 = BenhNhan("Nguyễn Văn A", 30)
+bn2 = BenhNhan("Trần Thị B", 25)
+
+print(bn1)
+print(bn2)
