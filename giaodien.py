@@ -12,7 +12,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(956, 569)
+        MainWindow.resize(956, 572)
         MainWindow.setStyleSheet("background-color:rgb(170, 255, 255)\n"
 "")
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
@@ -58,21 +58,21 @@ class Ui_MainWindow(object):
         self.label_4 = QtWidgets.QLabel(parent=self.verticalLayoutWidget_2)
         self.label_4.setObjectName("label_4")
         self.verticalLayout_2.addWidget(self.label_4)
-        self.lineEdit = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_2)
-        self.lineEdit.setStyleSheet("border: 1px solid royalblack; /* Viền màu xanh dương đậm */\n"
+        self.input_ten = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_2)
+        self.input_ten.setStyleSheet("border: 1px solid royalblack; /* Viền màu xanh dương đậm */\n"
 "border-radius: 10px;    /* Bo tròn góc */\n"
 "")
-        self.lineEdit.setObjectName("lineEdit")
-        self.verticalLayout_2.addWidget(self.lineEdit)
+        self.input_ten.setObjectName("input_ten")
+        self.verticalLayout_2.addWidget(self.input_ten)
         self.label_5 = QtWidgets.QLabel(parent=self.verticalLayoutWidget_2)
         self.label_5.setObjectName("label_5")
         self.verticalLayout_2.addWidget(self.label_5)
-        self.lineEdit_2 = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_2)
-        self.lineEdit_2.setStyleSheet("border: 1px solid royalblack; /* Viền màu xanh dương đậm */\n"
+        self.input_tuoi = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget_2)
+        self.input_tuoi.setStyleSheet("border: 1px solid royalblack; /* Viền màu xanh dương đậm */\n"
 "border-radius: 10px;    /* Bo tròn góc */\n"
 "")
-        self.lineEdit_2.setObjectName("lineEdit_2")
-        self.verticalLayout_2.addWidget(self.lineEdit_2)
+        self.input_tuoi.setObjectName("input_tuoi")
+        self.verticalLayout_2.addWidget(self.input_tuoi)
         self.label_6 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_6.setGeometry(QtCore.QRect(20, 220, 691, 61))
         self.label_6.setObjectName("label_6")
