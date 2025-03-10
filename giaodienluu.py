@@ -88,20 +88,20 @@ class Ui_MainWindow(object):
         self.horizontalLayout = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
         self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout.setObjectName("horizontalLayout")
-        self.btn_de_xuat_2 = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget)
-        self.btn_de_xuat_2.setEnabled(True)
-        self.btn_de_xuat_2.setStyleSheet("font: 87 italic 10pt \"Segoe UI Black\";\n"
+        self.btn_luu_tt = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget)
+        self.btn_luu_tt.setEnabled(True)
+        self.btn_luu_tt.setStyleSheet("font: 87 italic 10pt \"Segoe UI Black\";\n"
 "\n"
 "background: rgb(85, 255, 255)")
-        self.btn_de_xuat_2.setObjectName("btn_de_xuat_2")
-        self.horizontalLayout.addWidget(self.btn_de_xuat_2)
-        self.btn_de_xuat = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget)
-        self.btn_de_xuat.setEnabled(True)
-        self.btn_de_xuat.setStyleSheet("font: 87 italic 10pt \"Segoe UI Black\";\n"
+        self.btn_luu_tt.setObjectName("btn_luu_tt")
+        self.horizontalLayout.addWidget(self.btn_luu_tt)
+        self.btn_open_f = QtWidgets.QPushButton(parent=self.horizontalLayoutWidget)
+        self.btn_open_f.setEnabled(True)
+        self.btn_open_f.setStyleSheet("font: 87 italic 10pt \"Segoe UI Black\";\n"
 "\n"
 "background: rgb(85, 255, 255)")
-        self.btn_de_xuat.setObjectName("btn_de_xuat")
-        self.horizontalLayout.addWidget(self.btn_de_xuat)
+        self.btn_open_f.setObjectName("btn_open_f")
+        self.horizontalLayout.addWidget(self.btn_open_f)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
@@ -128,8 +128,8 @@ class Ui_MainWindow(object):
         item.setText(_translate("MainWindow", "Bệnh:"))
         item = self.tableWidget.verticalHeaderItem(4)
         item.setText(_translate("MainWindow", "Đề Xuất Thuốc"))
-        self.btn_de_xuat_2.setText(_translate("MainWindow", "Đề xuất thuốc"))
-        self.btn_de_xuat.setText(_translate("MainWindow", "Thoát"))
+        self.btn_luu_tt.setText(_translate("MainWindow", "Lưu"))
+        self.btn_open_f.setText(_translate("MainWindow", "Thoát"))
 
 
 if __name__ == "__main__":
