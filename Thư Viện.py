@@ -212,3 +212,5 @@ while True:
         break
 
 print("Cảm ơn bạn đã sử dụng chương trình!")
+# Giả sử self.my_line_edit là QLineEdit bạn muốn kiểm tra
+   # Sẽ in False nếu không ở chế độ readOnl
