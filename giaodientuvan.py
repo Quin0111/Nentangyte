@@ -24,13 +24,13 @@ class Ui_MainWindow(object):
 "border-radius: 10px;    /* Bo tròn góc */")
         self.result_text.setReadOnly(True)
         self.result_text.setObjectName("result_text")
-        self.trieuchung = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.trieuchung.setGeometry(QtCore.QRect(200, 100, 531, 31))
-        self.trieuchung.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.IBeamCursor))
-        self.trieuchung.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+        self.input_trieuchung = QtWidgets.QLineEdit(parent=self.centralwidget)
+        self.input_trieuchung.setGeometry(QtCore.QRect(200, 100, 531, 31))
+        self.input_trieuchung.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.IBeamCursor))
+        self.input_trieuchung.setStyleSheet("background-color: rgb(255, 255, 255);\n"
 "border: 1px solid royalblack; /* Viền màu xanh dương đậm */\n"
 "border-radius: 10px;    /* Bo tròn góc */")
-        self.trieuchung.setObjectName("trieuchung")
+        self.input_trieuchung.setObjectName("input_trieuchung")
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
         self.label.setGeometry(QtCore.QRect(30, 10, 55, 16))
         self.label.setText("")
