@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>956</width>
-    <height>569</height>
+    <height>572</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -121,7 +121,7 @@ background: rgb(85, 255, 255)</string>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit">
+      <widget class="QLineEdit" name="input_ten">
        <property name="styleSheet">
         <string notr="true">border: 1px solid royalblack; /* Viền màu xanh dương đậm */
 border-radius: 10px;    /* Bo tròn góc */
@@ -137,7 +137,7 @@ border-radius: 10px;    /* Bo tròn góc */
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_2">
+      <widget class="QLineEdit" name="input_tuoi">
        <property name="styleSheet">
         <string notr="true">border: 1px solid royalblack; /* Viền màu xanh dương đậm */
 border-radius: 10px;    /* Bo tròn góc */
